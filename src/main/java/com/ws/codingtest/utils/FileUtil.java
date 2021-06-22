@@ -50,7 +50,6 @@ public class FileUtil {
 			Node node = new Node(Integer.parseInt(nums[0]),Integer.parseInt(nums[1]));
 			return node;
 		} else  {
-			System.out.println("invalid range: "+ line);
 			return null;
 		}
 	}
